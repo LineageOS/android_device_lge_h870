@@ -1,0 +1,237 @@
+# BCM4359 WLBGA iPA, eLNA board for bringup -
+NVRAMRev=$Rev: 528206 $
+sromrev=11
+boardrev=0x1101
+boardtype=0x0777
+# JIRA:SW4349-945 MANDATORY! Update makefile in case you touch bfl
+boardflags=0x10401001
+boardflags2=0x00800000
+boardflags3=0x48700186
+#boardnum=57410 
+macaddr=00:90:4c:12:d0:01
+ccode=0
+regrev=0
+antswitch=0
+#pdgain5g=0
+#pdgain2g=0
+tworangetssi2g=0
+tworangetssi5g=0
+AvVmid_c0=2,130,2,130,2,130,2,130,2,130
+AvVmid_c1=2,130,2,130,2,130,2,130,2,130
+vendid=0x14e4
+devid=0x43ef
+manfid=0x2d0
+fdss_level_2g=5,5
+fdss_level_5g=5,5
+fdss_interp_en=1
+#prodid=0x052e
+nocrc=1
+btc_mode=1
+btcdyn_flags=0x0
+xtalfreq=37400
+rxgains2gelnagaina0=3
+rxgains2gtrisoa0=7
+rxgains2gtrelnabypa0=1
+rxgains5gelnagaina0=3
+rxgains5gtrisoa0=6
+rxgains5gtrelnabypa0=1
+rxgains5gmelnagaina0=3
+rxgains5gmtrisoa0=6
+rxgains5gmtrelnabypa0=1
+rxgains5ghelnagaina0=3
+rxgains5ghtrisoa0=6
+rxgains5ghtrelnabypa0=1
+rxgains2gelnagaina1=3
+rxgains2gtrisoa1=7
+rxgains2gtrelnabypa1=1
+rxgains5gelnagaina1=3
+rxgains5gtrisoa1=6
+rxgains5gtrelnabypa1=1
+rxgains5gmelnagaina1=3
+rxgains5gmtrisoa1=6
+rxgains5gmtrelnabypa1=1
+rxgains5ghelnagaina1=3
+rxgains5ghtrisoa1=6
+rxgains5ghtrelnabypa1=1
+cckdigfilttype=5
+rxchain=3
+txchain=3
+aa2g=3
+aa5g=3
+agbg0=0
+agbg1=0
+aga0=0
+aga1=0
+tssipos2g=1
+extpagain2g=2
+tssipos5g=1
+extpagain5g=2
+tempthresh=255
+tempoffset=255
+rawtempsense=0x1ff
+#throttle_thresh=50
+
+#11b power Cal offset
+pa2gccka0=0xff4c,0x1d82,0xfc8b
+pa2gccka1=0xff68,0x2115,0xfc0f
+#11g power Cal offset
+pa2ga0=0xff4c,0x1cb2,0xfca1
+pa2ga1=0xff31,0x1958,0xfce5
+#11a power Cal offset
+pa5ga0=0xff56,0x1d8c,0xfc70,0xff4c,0x1c51,0xfc92,0xff4a,0x1b77,0xfc9e,0xff44,0x1a67,0xfcb8
+pa5ga1=0xff33,0x1876,0xfce0,0xff38,0x1918,0xfcca,0xff34,0x187b,0xfcda,0xff3b,0x1886,0xfccf
+#40M80M power Cal offset
+pa5gbw4080a0=0xff3e,0x1ca3,0xfc72,0xff33,0x1abe,0xfca6,0xff3b,0x1b15,0xfc99,0xff41,0x1b8d,0xfc8a
+pa5gbw4080a1=0xff34,0x19f1,0xfcaf,0xff30,0x194f,0xfcbf,0xff3b,0x1acf,0xfc93,0xff3a,0x1ab0,0xfc8c
+# CCK Output Power = (82/4=20.5)-1.5 = 19dBm
+maxp2ga0=84
+maxp2ga1=82
+# 5G Output Power Set : maxp5ga0 74 = 17dBm (74/4=18.5-1.5=17)
+maxp5ga0=74,74,74,74
+maxp5ga1=74,74,74,74
+subband5gver=0x4
+paparambwver=3
+cckpwroffset0=0
+cckpwroffset1=0
+pdoffset40ma0=0x0000
+pdoffset80ma0=0xEEEE
+pdoffset40ma1=0x0000
+pdoffset80ma1=0xEEEE
+cckbw202gpo=0x1110
+
+# C9/C8/M7/M6/M5/M4/M3/M0-2 ( if need to control MCS1 and MCS 2 separately, then use ofdmlrbw202gpo)
+# C9/C8/M7/M6/M5/M4/M3/M0-2 
+#14/14/14/14/14/14/14/16BE
+mcsbw202gpo=0xBBBBBBB8
+
+# 54/48/36/24M power offset
+#14/14/14/14
+dot11agofdmhrbw202gpo=0xBBBB
+# MCS1&2(11n&ac 40M) / MCS1&2 (11n&ac 20M) / 12&18Mbps(11a/g) / 6&9(11a/g)
+#-/-/14/16BE
+ofdmlrbw202gpo=0x00B8
+# C9/C8/M7/M6(54M)/M5(48M)/M4(36M)/M3(24M)/M0.2(18M/12M/9M/6M)
+#14/14/14/14/15/15/15/16 
+mcsbw205glpo=0x66664442
+#12/12/12/12/13/13/13/13 
+mcsbw405glpo=0xAAAA8888
+#11/11/11/11/11/11/11/11
+mcsbw805glpo=0xCCCCCCCC
+
+# C9/C8/M7/M6(54M)/M5(48M)/M4(36M)/M3(24M)/M0.2(18M/12M/9M/6M) 
+#14/14/14/14/15/15/15/16 
+mcsbw205gmpo=0x66664442
+#12/12/12/12/13/13/13/13 
+mcsbw405gmpo=0xAAAA8888
+#11/11/11/11/11/11/11/11
+mcsbw805gmpo=0xCCCCCCCC
+
+# C9/C8/M7/M6(54M)/M5(48M)/M4(36M)/M3(24M)/M0.2(18M/12M/9M/6M)
+#14/14/14/14/15/15/15/16 
+mcsbw205ghpo=0x66664442
+#12/12/12/12/13/13/13/13
+mcsbw405ghpo=0xAAAA8888
+#11/11/11/11/11/11/11/11
+mcsbw805ghpo=0xCCCCCCCC
+
+
+
+mcslr5glpo=0x0000
+mcslr5gmpo=0x0000
+mcslr5ghpo=0x0000
+sb20in40hrpo=0x0
+sb20in80and160hr5glpo=0x0
+sb40and80hr5glpo=0x0
+sb20in80and160hr5gmpo=0x0
+sb40and80hr5gmpo=0x0
+sb20in80and160hr5ghpo=0x0
+sb40and80hr5ghpo=0x0
+sb20in40lrpo=0x0
+sb20in80and160lr5glpo=0x0
+sb40and80lr5glpo=0x0
+sb20in80and160lr5gmpo=0x0
+sb40and80lr5gmpo=0x0
+sb20in80and160lr5ghpo=0x0
+sb40and80lr5ghpo=0x0
+dot11agduphrpo=0x0
+dot11agduplrpo=0x0
+phycal_tempdelta=15
+temps_period=15
+temps_hysteresis=15
+
+#ltecxmux=0
+#ltecxpadnum=0x0908
+#ltecxfnsel=0x44
+#ltecxgcigpio=0x43
+#OOB params
+#device_wake_opt=1
+host_wake_opt=0
+
+swctrlmap_2g=0x00000808,0x18180000,0x10100000,0x021810,0x1ff
+swctrlmapext_2g=0x00000000,0x00000000,0x00000000,0x000000,0x003
+swctrlmap_5g=0x00004040,0x80800000,0x00000000,0x000000,0x1e5
+swctrlmapext_5g=0x00000000,0x00000000,0x00000000,0x000000,0x003
+fem_table_init_val=0x10100000,0x00000000
+
+#2G RSSI OFFSET
+rssi_delta_2g_c0=3,3,3,3
+rssi_delta_2g_c1=5,5,5,5
+
+#5G RSSI OFFSET
+rssi_delta_5gl_c0=7,7,7,7,7,7
+rssi_delta_5gml_c0=6,6,6,6,6,6
+rssi_delta_5gmu_c0=6,6,6,6,6,6
+rssi_delta_5gh_c0=5,5,5,5,5,5
+rssi_delta_5gl_c1=7,7,7,7,7,7
+rssi_delta_5gml_c1=8,8,8,8,8,8
+rssi_delta_5gmu_c1=8,8,8,8,8,8
+rssi_delta_5gh_c1=9,9,9,9,9,9
+
+muxenab=0x4
+
+powoffs2gtna0=0,1,-2,-2,-1,-1,0,0,0,4,4,-1,-2,0
+powoffs2gtna1=-1,-1,-4,-4,-4,-5,-3,0,2,4,4,3,1,0
+cck_onecore_tx=1
+
+#ed_thresh2g=-63
+#ed_thresh5g=-63
+#dynamicsarctrl_2g=0xffb0
+#dynamicsarctrl_5g=0xffa0
+#dynamicsarctrl_2g_2=0xff90
+#dynamicsarctrl_5g_2=0xff90
+#5G TX Compensation parameter(CH36, Ch64, CH100, CH140, CH 144, CH149, CH165)(-15 ~ +3dB)
+powoffs5g20mtna0=-17,-16,-18,0,0,0,-18
+powoffs5g20mtna1=-16,-18,-18,0,0,0,-18
+#5G TX Compensation parameter(CH38, Ch62, CH102, CH 141 CH151)(-15 ~ +3dB)
+powoffs5g40mtna0=-18,-18,-19,0,0
+powoffs5g40mtna1=-19,-18,-19,0,0
+#5G TX Compensation parameter(CH42, Ch58, CH106, CH138, CH155) (-15 ~ +3dB)
+powoffs5g80mtna0=-16,-16,-18,0,0
+powoffs5g80mtna1=-16,-16,-17,0,0
+
+
+
+sar_limit_mode_1=0x3E3E,0x3E3E,0x3E3E,0x3E3E,0x3E3E
+sar_limit_mode_2=0x3E3E,0x3E3E,0x3E3E,0x3E3E,0x3E3E
+sar_limit_mode_3=0x3E3E,0x3E3E,0x3E3E,0x3E3E,0x3E3E
+
+
+
+## FCC power limit on ch12/13
+#fccpwrch12=1
+#fccpwrch13=1
+#fccpwroverride=1
+
+#Enabling One Core Listen
+ocl=0
+
+#rpcal2g=164
+#rpcal5gb0=200
+#rpcal5gb1=87
+#rpcal5gb2=82
+#rpcal5gb3=218
+#rpcal_phase2g=248
+#rpcal_phase5gb0=142
+#rpcal_phase5gb1=346
+#rpcal_phase5gb2=4
+#rpcal_phase5gb3=170
