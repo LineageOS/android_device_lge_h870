@@ -22,10 +22,6 @@ $(call inherit-product-if-exists, vendor/lge/h870/h870-vendor.mk)
 # common g6
 $(call inherit-product, device/lge/g6-common/g6.mk)
 
-# Bluetooth
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_lucye_global_com.conf:system/etc/sensors/sensor_def_variable.conf
