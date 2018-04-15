@@ -1,7 +1,0 @@
-#
-# System Properties for T-Mobile LG G6
-#
-
-# Radio
-#ro.telephony.default_network=22
-telephony.lteOnGsmDevice=1

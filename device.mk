@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,6 +18,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lge/h870/h870-vendor.mk)
+
+# Properties
+-include $(LOCAL_PATH)/vendor_prop.mk
 
 # common g6
 $(call inherit-product, device/lge/g6-common/g6.mk)
