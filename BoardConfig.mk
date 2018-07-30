@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/lge/h870
 
+# path to the block device for system-as-root
+TARGET_SYSTEM_PARTITION := /dev/sda14
+
 # inherit from common g6
 -include device/lge/g6-common/BoardConfigCommon.mk
 
