@@ -20,6 +20,7 @@ DEVICE_PATH := device/lge/h870
 -include device/lge/g6-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := g6,lucye,h870
+TARGET_SYSTEM_PARTITION := /dev/sda14
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_h870_defconfig
