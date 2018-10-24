@@ -23,6 +23,9 @@ $(call inherit-product-if-exists, vendor/lge/h870/h870-vendor.mk)
 -include $(LOCAL_PATH)/vendor_prop.mk
 
 # common g6
+# Overlays (inherit after vendor/cm to ensure we override it)
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 $(call inherit-product, device/lge/g6-common/g6.mk)
 
 # Sensors
