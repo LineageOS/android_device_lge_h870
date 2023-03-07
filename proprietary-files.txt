@@ -1,7 +1,22 @@
 # Bluetooth
 vendor/firmware/BCM4345C0_003.001.025.0139.0223.HCD:vendor/firmware/BCM4345C0.hcd
 
-# WiFi
+# Graphics - Firmware
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
+vendor/firmware/a530_zap.b00
+vendor/firmware/a530_zap.b01
+vendor/firmware/a530_zap.b02
+vendor/firmware/a530_zap.elf
+vendor/firmware/a530_zap.mdt
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/a530v3_seq.fw2
+
+# Wi-Fi
 vendor/firmware/fw_bcmdhd.bin
 vendor/firmware/fw_bcmdhd_apsta.bin
 vendor/firmware/fw_bcmdhd_mfg.bin
