@@ -1,5 +1,5 @@
 # Bluetooth
-vendor/firmware/BCM4345C0_003.001.025.0139.0223.HCD:vendor/firmware/BCM4345C0.hcd
+vendor/firmware/BCM4345C0_003.001.025.0139.0223.HCD:vendor/firmware/BCM43xx.hcd
 
 # Graphics - Firmware
 vendor/firmware/a530_gpmu.fw2
