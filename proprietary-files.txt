@@ -1,7 +1,7 @@
-# Bluetooth
-vendor/firmware/BCM4345C0_003.001.025.0139.0223.HCD:vendor/firmware/BCM43xx.hcd
+# G6Bluetooth
+vendor/firmware/BCM4345C0_003.001.025.0162.0298_LGE_G6_Global_ORC.HCD:vendor/firmware/BCM43xx.hcd
 
-# Graphics - Firmware
+# G6Graphics - Firmware
 vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
@@ -16,7 +16,7 @@ vendor/firmware/a530v2_seq.fw2
 vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
 
-# Wi-Fi
-vendor/firmware/fw_bcmdhd.bin
-vendor/firmware/fw_bcmdhd_apsta.bin
-vendor/firmware/fw_bcmdhd_mfg.bin
+# G6Wi-Fi
+vendor/etc/firmware/fw_bcmdhd.bin:vendor/firmware/fw_bcmdhd.bin
+vendor/etc/firmware/fw_bcmdhd_apsta.bin:vendor/firmware/fw_bcmdhd_apsta.bin
+vendor/etc/firmware/fw_bcmdhd_mfg.bin:vendor/firmware/fw_bcmdhd_mfg.bin
