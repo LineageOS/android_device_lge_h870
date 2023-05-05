@@ -35,6 +35,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lucye" \
     PRODUCT_DEVICE="lucye" \
     PRODUCT_NAME="lucye_global_com" \
-    PRIVATE_BUILD_DESC="lucye_global_com-user 8.0.0 OPR1.170623.032 183301757502c release-keys"
+    PRIVATE_BUILD_DESC=" lucye_global_com-user 8.0.0 OPR1.170623.032 192760018980d release-keys"
 
-BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:8.0.0/OPR1.170623.032/183301757502c:user/release-keys"
+BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:8.0.0/OPR1.170623.032/192760018980d:user/release-keys"
