@@ -1,5 +1,5 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
-##  are from from lucye_global_com-user 8.0.0 OPR1.170623.032 192760018980d release-keys
+### are from from lucye_global_com-user 8.0.0 OPR1.170623.032 192760018980d release-keys
 
 # Bluetooth
 vendor/firmware/BCM4345C0_003.001.025.0162.0298_LGE_G6_Global_ORC.HCD:vendor/firmware/BCM43xx.hcd
