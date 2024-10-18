@@ -32,9 +32,7 @@ PRODUCT_MODEL := LG-H870
 PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="lucye" \
-    PRODUCT_DEVICE="lucye" \
-    PRODUCT_NAME="lucye_global_com" \
-    PRIVATE_BUILD_DESC="lucye_global_com-user 8.0.0 OPR1.170623.032 192760018980d release-keys"
-
-BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:8.0.0/OPR1.170623.032/192760018980d:user/release-keys"
+    BuildDesc="lucye_global_com-user 8.0.0 OPR1.170623.032 192760018980d release-keys
+    BuildFingerprint="lge/lucye_global_com/lucye:8.0.0/OPR1.170623.032/192760018980d:user/release-keys" \
+    DeviceName="lucye_global_com" \
+    DeviceProduct="lucye"
