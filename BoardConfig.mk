@@ -14,15 +14,15 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lge/h870
+DEVICE_PATH := device/lge/h870d
 
 # inherit from common g6
 -include device/lge/g6-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g6,lucye,h870
+TARGET_OTA_ASSERT_DEVICE := g6,lucye,h870d
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/lge/h870.config
+TARGET_KERNEL_CONFIG += vendor/lge/h870d.config
 
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 536870912
@@ -30,4 +30,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5863636992
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24595398656
 
 # inherit from the proprietary version
-include vendor/lge/h870/BoardConfigVendor.mk
+include vendor/lge/h870d/BoardConfigVendor.mk

@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=h870
+export DEVICE=h870d
 export DEVICE_COMMON=g6-common
 export PLATFORM_COMMON=msm8996-common
 export VENDOR=lge
